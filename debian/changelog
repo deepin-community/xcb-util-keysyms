@@ -1,8 +1,30 @@
-xcb-util-keysyms (0.4.0-deepin1) unstable; urgency=medium
+xcb-util-keysyms (0.4.1-1) unstable; urgency=medium
 
-  * Rebuild
+  * Team upload.
 
- -- Deepin Packages Builder <packages@deepin.org>  Fri, 11 Nov 2022 18:06:30 +0800
+  [ Debian Janitor ]
+  * Trim trailing whitespace.
+  * Use secure copyright file specification URI.
+  * Use secure URI in Homepage field.
+  * Bump debhelper from deprecated 8 to 10.
+  * Change priority extra to priority optional.
+  * Update Vcs-* headers to use salsa repository.
+  * Remove MIA uploader Julien Danjou <acid@debian.org>. Closes: #928585
+
+  [ Timo Aaltonen ]
+  * New upstream release.
+  * control: Migrate to x11proto-dev.
+
+  [ Andreas Tille ]
+  * Fix watch file
+  * debhelper-compat = 13
+  * Switch from cdbs to dh
+  * Build-Depends: s/pkg-config/pkgconf/
+  * Standards-Version: 4.7.0 (routine-update)
+  * Reorder sequence of d/control fields by cme (routine-update)
+  * Propagate hardening options
+
+ -- Andreas Tille <tille@debian.org>  Wed, 22 Jan 2025 14:21:53 +0100
 
 xcb-util-keysyms (0.4.0-1) unstable; urgency=medium
 
@@ -160,4 +182,3 @@ xcb-util (0.2-1) experimental; urgency=low
   * Initial release (Closes: #437681)
 
  -- Julien Danjou <acid@debian.org>  Tue, 25 Mar 2008 19:14:42 +0100
-

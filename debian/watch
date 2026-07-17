@@ -1,2 +1,3 @@
-version=3
-http://xcb.freedesktop.org/dist/xcb-util-keysyms-([0-9.]*)\.tar\.bz2
+version=4
+
+https://xcb.freedesktop.org/dist/xcb-util-keysyms-@ANY_VERSION@@ARCHIVE_EXT@
